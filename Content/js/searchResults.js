@@ -1,4 +1,4 @@
-import { renderutil,renderSearchResults } from "./shared/util.js";
+import { renderutil,renderSearchResults } from "./util.js";
 
 var API_KEY = "AIzaSyBwiN6vZtxb6amB-J5SScat2HI2NTBZPhw";
 var access_key = "b339311e4b0b86c475e9e00898d14f02";

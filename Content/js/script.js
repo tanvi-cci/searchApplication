@@ -1,5 +1,4 @@
-import { searchResults } from "../searchResults.js";
-//import { result } from "./util.js";
+import { searchResults } from "./searchResults.js";
 
 function search() {
   const search = document.getElementById("search").value;
