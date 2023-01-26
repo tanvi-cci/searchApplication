@@ -1,0 +1,237 @@
+/* This stylesheet is the main stylesheet. 
+It is used only for importing partial sass files.
+DO NOT WRITE ANY CSS STYLINGS HERE */
+/* Compass Files */
+/* Default base files */
+/* Import all Base Files */
+/* VARIABLES */
+/* Font Families */
+/* fonts to be used by the entire site */
+/* Colors */
+/* MIXINS */
+/* Mixin for font size */
+/* Vendor Prefix */
+/* FONTS */
+/* Lato */
+/*font-family: 'Lato', sans-serif;*/
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i");
+/* Base Stylings like ul, p, body, etc */
+/* Body & Html */
+body, html {
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: "Lato";
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: "Lato";
+}
+
+/* HELPERS */
+/* Text colors */
+/* Classes */
+.display-inline {
+  display: inline-block;
+}
+
+.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.grey-bg {
+  background-color: #d9d9d9;
+}
+
+/* Form */
+form {
+  padding: 20px 0;
+}
+
+form input {
+  border: 2px solid;
+  padding: 5px;
+}
+
+/* BUTTONS */
+button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 7px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0px 1px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 135px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:focus, button:hover, button:active {
+  outline: none;
+}
+
+button.active {
+  background-color: #376092;
+  color: #fff;
+}
+
+/* HEADINGS */
+/* Layouts */
+/* Import all Layout Files */
+/* Theme/Custom Files */
+/* Import all Theme Files */
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.red {
+  color: red;
+}
+
+.input-group input {
+  border-right: none;
+}
+
+.input-group .input-group-append {
+  border-left: none;
+}
+
+.input-group .input-group-append span {
+  padding: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card .card-body {
+  height: 350px;
+  overflow-y: scroll;
+}
+
+#GitHub_Repos div {
+  border-bottom: 1px solid #d0d7de;
+}
+
+#GitHub_Repos div p:first-of-type {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#Youtube_Videos > div {
+  border-bottom: 1px solid #d0d7de;
+  padding: 1rem 0;
+}
+
+#Youtube_Videos > div div {
+  padding-left: 10px;
+}
+
+#Youtube_Videos > div div a {
+  color: #606060;
+  text-decoration: none;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#Youtube_Videos > div p:not(:nth-of-type(1)) {
+  font-size: 12px;
+  color: #606060;
+}
+
+#Youtube_Videos > div p:last-of-type {
+  margin-bottom: 0;
+}
+
+#Youtube_Videos iframe {
+  border-radius: 10px;
+}
+
+#Stack_Overflow_Questions > div {
+  border-bottom: 1px solid #d0d7de;
+}
+
+#Stack_Overflow_Questions > div div:first-of-type p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+#Stack_Overflow_Questions > div a {
+  text-decoration: none;
+  color: #0074cc;
+}
+
+#Stack_Overflow_Questions > div a:hover {
+  color: #0a95ff;
+}
+
+#Stack_Overflow_Questions .tags {
+  color: #39739d;
+  background-color: #e1ecf4;
+  padding: 3px 6px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#Stack_Overflow_Questions .tags:hover {
+  color: #2c5877;
+  background-color: #d0e3f1;
+}
+
+#Stack_Overflow_Questions img {
+  border-radius: 3px;
+}
+
+#Stack_Overflow_Questions .summary {
+  width: 20%;
+  padding: 10px 0;
+}
+
+#Stack_Overflow_Questions .description {
+  width: 80%;
+  padding: 10px 0;
+}
+
+#Google_Search .cite {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+/* Other Specific Files */
+/*# sourceMappingURL=styles.css.map */

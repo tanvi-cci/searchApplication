@@ -1,0 +1,27 @@
+/* BUTTONS */
+button {
+  background-color: $black;
+  border: none;
+  color: $white;
+  padding: 7px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0px 1px;
+  @include font-size(14px);
+  font-weight: bold;
+  border-radius: 5px;
+  width: 135px;
+  cursor: pointer;
+  outline: none;
+  &:focus,
+  &:hover,
+  &:active {
+    outline: none;
+  }
+
+  &.active {
+    background-color: $blue;
+    color: $white;
+  }
+}
