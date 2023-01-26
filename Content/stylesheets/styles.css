@@ -124,6 +124,7 @@ form {
 
 .input-group input {
   border-right: none;
+  border-radius: 20px 0 0 20px;
 }
 
 .input-group .input-group-append {
@@ -132,6 +133,9 @@ form {
 
 .input-group .input-group-append span {
   padding: 10px;
+  border-radius: 0 20px 20px 0;
+  border-left: none;
+  background-color: transparent;
 }
 
 .card {

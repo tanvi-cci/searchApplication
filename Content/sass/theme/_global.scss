@@ -15,12 +15,16 @@ form {
 .input-group {
   input {
     border-right: none;
+    border-radius: 20px 0 0 20px;
   }
   .input-group-append {
     border-left: none;
 
     span {
       padding: 10px;
+      border-radius: 0 20px 20px 0;
+      border-left: none;
+      background-color: transparent;
     }
   }
 }
